@@ -25,7 +25,7 @@ class Point(object):
 
 class Examples(object):
     def __init__(self):
-        self.center = Point(img_width, img_height/2)
+        self.center = Point(0, 0)
         self.input = []
         self.output = []
 
